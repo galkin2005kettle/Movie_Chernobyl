@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+}
+
+section {
+	background-color: white;
+}
+
+.body__info {
+	width: 500px;
+}
+
+.session {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	border-bottom: 1px solid black;
+}
+
+.session__right {
+	display: flex;
+}
+
+.session__time, .session__place, .session__cost {
+	font-size: 20px;
+}
+
+.session__cost {
+	margin-left: 30px;
+}
+
+.description {
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	padding-top: 30px;
+	font-size: 16px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}

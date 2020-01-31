@@ -1,0 +1,38 @@
+.list{
+	padding-top: 10px;
+}
+
+.list__container {
+	margin: 0 auto;
+	width: 1000px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.details {
+	padding: 0;
+}
+
+li {
+	line-height: 1.8;
+	list-style-type: none;
+}
+
+.detail {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.detail__field {
+	width: 250px;
+	font-weight: 700;
+}
+
+.actors {
+	margin-left: 60px;
+}
+
+.actor:first-child {
+	font-weight: 700;
+}

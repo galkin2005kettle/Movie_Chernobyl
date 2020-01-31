@@ -1,0 +1,32 @@
+.site__container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.hero {
+	height: 400px;
+	background-image: url(../images/bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.hero__date {
+	padding-top: 40px;
+	font-size: 30px;
+}
+
+.hero__title {
+	padding-top: 10px;
+	font-size: 60px;
+}
+
+.hero__reward {
+	display: inline-block;
+	font-size: 20px;
+	padding-top: 190px;
+	border-bottom: 1px solid black;
+}
+
+.hero__trailer {
+	padding-top: 30px;
+}
